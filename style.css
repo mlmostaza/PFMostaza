@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+
+ /* Header */
+
+.header{
+	background-color:#d57b07 ;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky ;
+	top: 0px;
+
+}
+
+.header__titlepage { /* titulo de la pagina */  /*https://huemint.com/brand-2/#palette=dbae33-fffcfd-272a2f*/
+	color: #272a2f ;
+	display: inline;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    background-color:#d57b07 ;
+	padding-inline-start: 5px;
+}
+
+.header__logo {
+	display: inline;
+    background-color: #d57b07;
+
+}
+
+.header__navbar { /* navbar */
+	font-size: 20px;
+	padding: 3px 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+	list-style-type: none;
+	font-weight: bold;
+	text-align: right;
+	font-family: 'Bebas Neue', cursive;
+	justify-content: space-between;
+	border: 3px solid #272a2f;
+	display: flex;
+
+}
+
+
+.header__navbar li {
+	padding: 6px;
+}
+
+/*Body*/
+
+.containerBody {
+	background-image: linear-gradient(rgba(121, 115, 115, 0.8), rgba(121, 115, 115, 0.8)), url("./Img/MainSlide3.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/* Main */
+
+.containerMain {
+	height: 75vh;
+}
+.containerMainContact{
+	height: 100vh;
+}
+
+.hero {
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	grid-area: main;
+    height: 495px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.hero__h1 {
+	color: #272a2f;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	background-color: transparent;
+	padding-inline-start: 10px;
+	display: block;
+	
+}
+
+.hero__p {
+	color: #272a2f;
+	font-family: 'Bebas Neue', cursive ;
+	background-color: transparent;
+	font-size: 20px;
+	padding-inline-start: 10px;
+	padding-inline-end: 10px;
+}
+
+
+/*Sobre Nosotros*/
+
+.sobreNosotros {
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.sobreNosotros__h1 {
+	color: #272a2f;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	background-color: transparent;
+	padding-inline-start: 5px;
+	
+}
+
+.sobreNosotros__p {
+	color: #272a2f;
+	font-family: 'Bebas Neue', cursive ;
+	background-color: transparent;
+	font-size: 20px;
+	padding-inline-start: 5px;
+	padding-inline-end: 5px;
+	padding-bottom: 10px;
+}
+
+.sobreNosotros img{
+	transition: 1s;
+	height: 400px;
+	width: 250px;
+	border-radius: 10px;
+	border: 1px solid  #272a2f;
+}
+
+.sobreNosotros img:hover {
+	height: 450px;
+    width: 300px ;
+
+}
+
+.sobreNosotros__galeria {
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;*/
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 5px;
+	justify-items: center ;
+	margin: 5px;
+	
+}
+
+/*Contacto*/
+
+.form-container{
+	display: flex;
+	justify-content: flex-start;
+}
+.fieldset {
+	border-radius: 10px;
+    font-size: 20px;
+    color: #272a2f;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+	padding-left: 5px;
+}
+
+.sub-title {
+	color: #272a2f;
+    font-family: 'Bebas Neue', cursive;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.section-container {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+
+
+/*Footer*/
+
+.footer {
+	background-color: #d57b07;
+}
+
+.footer__section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.footer section div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+    padding-right: 10px;
+}
+
+.footer__RedesSociales { /* redes sociales en footer */ 
+	font-family: 'Bebas Neue', cursive;
+	list-style-type: none;
+	font-size: 15px;
+
+}
+
+.footer__RedesSociales li  {
+	padding-inline-start: 5px;
+	
+}
+
+
+/*Global*/
+
+a { /* todos los "a" */
+	text-decoration-line: none;
+	color:  #272a2f;
+}
+
+p { /* todos los "p" */
+    font-family: 'Bebas Neue', cursive;
+	color:  #272a2f;
+}
+
+small {
+	font-family: 'Bebas Neue', cursive;
+	color: #272a2f;
+}
+
+
+h3 {
+	font-size: 15px;
+	padding-inline-start: 5px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 768px) {
+
+	
+}
+
+@media only screen and (max-width: 576px) {
+
+.sobreNosotros__galeria{
+	grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.section-container{
+	display: flex;
+    flex-direction: column;
+}
+}
