@@ -68,8 +68,9 @@
 	height: 75vh;
 }
 .containerMainContact{
-	height: 100vh;
+	height: 75vh;
 }
+
 
 .hero {
 
@@ -165,10 +166,12 @@
 
 /*Contacto*/
 
-.form-container{
-	display: flex;
-	justify-content: flex-start;
-}
+ .form-container textarea {
+	width: 360px;
+	height: 150px;
+	resize: none;
+} 
+
 .fieldset {
 	border-radius: 10px;
     font-size: 20px;
@@ -188,6 +191,8 @@
 .section-container {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
+	align-items: center;
+    justify-items: center;
 }
 
 
@@ -257,6 +262,11 @@ h3 {
 }
 
 @media only screen and (max-width: 576px) {
+
+
+.header__titlepage {
+	font-size: 40px;
+}
 
 .sobreNosotros__galeria{
 	grid-template-columns: repeat(2, 1fr);
