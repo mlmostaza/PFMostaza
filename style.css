@@ -1,5 +1,6 @@
 * {
-	margin: 0;
+	/*max-width: 1200px;*/
+	margin: 0 /*auto*/;
 	padding: 0;
 	box-sizing: border-box;
 	
@@ -16,7 +17,7 @@
 	align-items: center;
 	position: sticky ;
 	top: 0px;
-
+	
 }
 
 .header__titlepage { /* titulo de la pagina */  /*https://huemint.com/brand-2/#palette=dbae33-fffcfd-272a2f*/
