@@ -1,0 +1,16 @@
+/* Header */
+
+.Navbar nav{
+	background-color:$bgColor ;
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+.colorNav {
+	color: $fontColor ;
+}
+
+.borderNav{
+	border: 2px solid $borderColor ;
+	border-radius: 3px;
+}

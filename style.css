@@ -6,9 +6,7 @@
 .Navbar nav{
 	background-color:#d57b07 ;
 	font-family: 'Bebas Neue', cursive;
-	/* position: fixed ; */
-	/* width: 100%; */
-	/* box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5); */
+
 }
 
 .colorNav {
@@ -129,10 +127,12 @@
 }
 
 .section-container {
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	display: flex;
+	/* grid-template-columns: repeat(2,1fr); */
+	/* grid-template-rows: repeat(2,1fr); */
+	flex-direction: row;
 	align-items: center;
-    justify-items: center;
+    justify-content: space-around;
 	padding: 20px;
 	margin-top: 60px;
 	
@@ -200,3 +200,4 @@ h3 {
 	font-family: 'Bebas Neue', cursive;
 	text-align: center;
 }
+

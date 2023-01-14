@@ -1,0 +1,52 @@
+// index con sass y nesting//
+
+.hero  {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+
+    img {
+        height: 200px;
+        width: 200px;
+    }
+
+    h2 {
+	    color: $fontColor;
+	    font-family: $fontStyle;
+	    font-size: 40px;
+	    padding-inline-start: 10px; 
+    }
+
+    p {
+        color: $fontColor;
+        font-family: $fontStyle ;
+        font-size: 20px;
+        padding-inline-start: 10px;
+        padding-inline-end: 10px;
+    }
+}
+
+//index sin sass//
+
+// .hero img {
+//    	height: 200px;
+//  	width: 200px;
+// }
+
+// .hero h2 {
+// 	color: $fontColor;
+// 	font-family: $fontStyle;
+// 	font-size: 40px;
+// 	padding-inline-start: 10px;
+	
+// }
+
+// .hero p {
+// 	color: $fontColor;
+// 	font-family: $fontStyle ;
+// 	font-size: 20px;
+// 	padding-inline-start: 10px;
+// 	padding-inline-end: 10px;
+// }

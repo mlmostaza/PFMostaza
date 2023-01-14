@@ -1,0 +1,23 @@
+/*Global*/
+
+a { /* todos los "a" */
+	text-decoration-line: none;
+	color:  $fontColor;
+}
+
+p { /* todos los "p" */
+    font-family: $fontStyle;
+	color:  $fontColor;
+}
+
+small {
+	font-family: $fontStyle;
+	color: $fontColor;
+}
+
+h3 {
+	font-size: 15px;
+	padding-inline-start: 5px;
+	font-family: $fontStyle;
+	text-align: center;
+}

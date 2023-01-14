@@ -1,4 +1,3 @@
-## Proyecto desarrollo web Coderhouse
+## Proyecto desarrollo web coderhouse
 ## MotorFix
-
 por: Mostaza Mauricio.

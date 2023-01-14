@@ -1,0 +1,59 @@
+/*Footer*/ //Con SASS usando nesting//
+
+.footer {
+	background-color: $bgColor;
+	padding-top: 15px;
+
+    &__section { 
+        display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+
+        &--RedesSociales { 
+            display: flex;
+	        justify-content: space-around;
+	        font-family: $fontStyle;
+	        list-style-type: none;
+	        font-size: 20px;
+	        padding: 0;
+
+            li  {
+                padding-inline-start: 5px;
+                
+            }
+        }
+    }
+}
+
+
+//SIN SASS//
+
+// .footer__section {
+// 	display: flex;
+// 	flex-direction: row;
+// 	justify-content: space-between;
+
+// }
+
+// .footer section div {
+// 	/* display: flex; */
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	align-items: flex-end;
+//     padding-right: 10px;
+// }
+
+// .footer__section--RedesSociales { /* redes sociales en footer */ 
+// 	display: flex;
+// 	justify-content: space-around;
+// 	font-family: 'Bebas Neue', cursive;
+// 	list-style-type: none;
+// 	font-size: 20px;
+// 	padding: 0;
+
+// }
+
+// .footer__section--RedesSociales li  {
+// 	padding-inline-start: 5px;
+	
+// }
