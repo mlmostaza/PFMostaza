@@ -1,0 +1,34 @@
+// *Sobre Nosotros* con sass y nesting//
+
+.mainContainer{
+
+	color: $fontColor;
+	font-family: $fontStyle ;
+	font-size: 20px;
+}
+
+.sobreNosotros {
+
+	padding-top: 10px;
+
+    h2{
+        font-size: 30px;
+    }
+
+}
+
+.sobreNosotros__galeria{
+
+	display: flex;
+	justify-content: center;
+
+    img {
+
+        height: 70vh;
+	    width: 100vh;
+	    border-radius: 20px;
+	    padding: 10px;
+
+    }
+}
+
