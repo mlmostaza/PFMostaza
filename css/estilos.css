@@ -50,18 +50,17 @@ h3 {
         padding-inline-start: 5px; }
 
 .containerMainContact {
-  height: 100vh;
+  height: auto;
   width: auto; }
 
 .form-container textarea {
-  width: 360px;
+  max-width: 360px;
   height: 150px;
   resize: none; }
 
 .div-form-container {
   border: solid;
   border-radius: 8px;
-  /* margin-top: 40px; */
   border-color: #272a2f;
   padding: 5px; }
 
@@ -80,13 +79,28 @@ h3 {
 
 .section-container {
   display: flex;
-  /* grid-template-columns: repeat(2,1fr); */
-  /* grid-template-rows: repeat(2,1fr); */
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding: 20px;
   margin-top: 60px; }
+
+@media screen and (max-width: 992px) {
+  .section-container {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    height: 100%; }
+  .mapa {
+    width: 90%; }
+  .div-form-container {
+    width: 90%; }
+  .anchoMapa {
+    width: 100%; }
+  .form-container textarea {
+    width: auto;
+    height: 150px;
+    resize: none; } }
 
 .hero {
   display: flex;
